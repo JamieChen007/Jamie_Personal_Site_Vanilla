@@ -143,12 +143,16 @@ a:active {
 }
 
 .blog_article_button_submit:hover,
-.contact_button_contactme:hover {
+.contact_button_contactme:hover,
+.portfolio_leftArrow:hover,
+.portfolio_rightArrow:hover {
   color: #bbb;
 }
 
 .blog_article_button_submit:active,
-.contact_button_contactme:active {
+.contact_button_contactme:active,
+.portfolio_leftArrow:active,
+.portfolio_rightArrow:active {
   color: white;
 }
 
@@ -276,8 +280,12 @@ a:active {
   width: 80%;
 }
 
-.portfolio_container_img {
+.portfolio_container_img_active {
   position: relative;
+}
+
+.portfolio_container_img {
+  display: none;
 }
 
 .portfolio_container_img_picture {
@@ -297,6 +305,33 @@ a:active {
   font-size: 15px;
 }
 
+.portfolio_leftArrow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 60%;
+  left: 330px;
+  border: none;
+  box-shadow: 1px 1px 2px;
+  background-color: transparent;
+  font-size: xx-large;
+  color: black;
+  cursor: pointer;
+}
+
+.portfolio_rightArrow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 60%;
+  right: 330px;
+  border: none;
+  box-shadow: 1px 1px 2px;
+  background-color: transparent;
+  font-size: xx-large;
+  color: black;
+  cursor: pointer;
+}
 .contact {
   width: 45%;
   margin: auto;
@@ -335,6 +370,14 @@ a:active {
 
   .blog {
     width: 100%;
+  }
+
+  .portfolio_leftArrow {
+    left: 200px;
+  }
+
+  .portfolio_rightArrow {
+    right: 200px;
   }
 }
 
@@ -413,6 +456,20 @@ a:active {
   .skill_container {
     width: 100%;
   }
+
+  .portfolio_leftArrow {
+    top: 65%;
+    left: 150px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .portfolio_rightArrow {
+    top: 65%;
+    right: 150px;
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -482,6 +539,20 @@ a:active {
 
   .portfolio_container_img_name {
     font-size: 10px;
+  }
+
+  .portfolio_leftArrow {
+    top: 65%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .portfolio_rightArrow {
+    top: 65%;
+    right: 0;
+    width: 40px;
+    height: 40px;
   }
 
   .contact {

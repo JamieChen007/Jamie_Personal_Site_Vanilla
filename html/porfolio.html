@@ -12,6 +12,12 @@
     <title>Jamie Chen's Personal Websit</title>
     <link rel="shortcut icon" type="image/x-icon" href="../images/icon.ico" />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -55,7 +61,7 @@
         >
       </div>
       <div class="portfolio_container">
-        <figure class="portfolio_container_img">
+        <figure class="portfolio_container_img_active">
           <img
             class="portfolio_container_img_picture"
             src="../images/p1.jpg"
@@ -63,10 +69,33 @@
           />
           <span class="portfolio_container_img_name">Project 1</span>
         </figure>
+        <figure class="portfolio_container_img">
+          <img
+            class="portfolio_container_img_picture"
+            src="../images/p2.jpg"
+            alt="A picture of me"
+          />
+          <span class="portfolio_container_img_name">Project 2</span>
+        </figure>
+        <figure class="portfolio_container_img">
+          <img
+            class="portfolio_container_img_picture"
+            src="../images/p3.jpg"
+            alt="A picture of me"
+          />
+          <span class="portfolio_container_img_name">Project 3</span>
+        </figure>
       </div>
+      <button class="portfolio_leftArrow">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <button class="portfolio_rightArrow">
+        <i class="fas fa-arrow-right"></i>
+      </button>
     </main>
     <footer class="foot">
       <p>©2023 All rights reserved.</p>
     </footer>
+    <script src="../js/slider.js"></script>
   </body>
 </html>
