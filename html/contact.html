@@ -15,23 +15,6 @@
   </head>
 
   <body>
-    <script
-      type="text/javascript"
-      color="0,0,0"
-      pointColor="0,0,0"
-      opacity="99"
-      zIndex="-2"
-      count="150"
-      src="../js/dist/canvas-nest.js"
-    ></script>
-    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
-    <script type="text/javascript">
-      var cn = new CanvasNest(document.getElementById("area-render"), {
-        color: "255,0,255",
-        count: 50,
-      });
-    </script>
-
     <header class="navbar">
       <a class="navbar_index" href="./index.html">Home</a>
       <a class="navbar_blog" href="./blog.html">Blog</a>
@@ -42,6 +25,7 @@
     <main class="contact">
       <div class="contact_title">
         <span class="contact_title_text">Contact Me</span>
+        <span class="contact_title_subtitle" id="contact_title_subtitle"></span>
       </div>
       <div class="contact_detail">
         <p class="contact_detail_text">
@@ -77,5 +61,22 @@
     <footer class="foot">
       <p>©2023 All rights reserved.</p>
     </footer>
+    <script src="/js/contact_write.js"></script>
+    <script
+      type="text/javascript"
+      color="0,0,0"
+      pointColor="0,0,0"
+      opacity="99"
+      zIndex="-2"
+      count="150"
+      src="../js/dist/canvas-nest.js"
+    ></script>
+    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
+    <script type="text/javascript">
+      var cn = new CanvasNest(document.getElementById("area-render"), {
+        color: "255,0,255",
+        count: 50,
+      });
+    </script>
   </body>
 </html>

@@ -15,23 +15,6 @@
   </head>
 
   <body>
-    <script
-      type="text/javascript"
-      color="0,0,0"
-      pointColor="0,0,0"
-      opacity="99"
-      zIndex="-2"
-      count="150"
-      src="../js/dist/canvas-nest.js"
-    ></script>
-    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
-    <script type="text/javascript">
-      var cn = new CanvasNest(document.getElementById("area-render"), {
-        color: "255,0,255",
-        count: 50,
-      });
-    </script>
-
     <header class="navbar">
       <a class="navbar_index" href="./index.html">Home</a>
       <a class="navbar_blog" href="./blog.html">Blog</a>
@@ -45,9 +28,10 @@
         <h1 class="blog_title_number">01</h1>
         <h1 class="blog_title_content">Blog Post pictures</h1>
       </div>
-      <figure class="blog_img">
-        <img class="blog_img_picture" src="../images/ai.jpg" alt="ai picture" />
-      </figure>
+      <div
+        class="blog_img"
+        style="background-image: url('../images/ai.jpg')"
+      ></div>
       <section class="blog_article">
         <h2 class="blog_article_title">Blog Post with pictures</h2>
         <small class="blog_article_date">Jamie Posted on 22/04/2023</small>
@@ -83,5 +67,22 @@
     <footer class="foot">
       <p>©2023 All rights reserved.</p>
     </footer>
+    <script src="/js/loading.js"></script>
+    <script
+      type="text/javascript"
+      color="0,0,0"
+      pointColor="0,0,0"
+      opacity="99"
+      zIndex="-2"
+      count="150"
+      src="../js/dist/canvas-nest.js"
+    ></script>
+    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
+    <script type="text/javascript">
+      var cn = new CanvasNest(document.getElementById("area-render"), {
+        color: "255,0,255",
+        count: 50,
+      });
+    </script>
   </body>
 </html>

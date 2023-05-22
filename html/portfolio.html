@@ -21,23 +21,6 @@
   </head>
 
   <body>
-    <script
-      type="text/javascript"
-      color="0,0,0"
-      pointColor="0,0,0"
-      opacity="99"
-      zIndex="-2"
-      count="150"
-      src="../js/dist/canvas-nest.js"
-    ></script>
-    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
-    <script type="text/javascript">
-      var cn = new CanvasNest(document.getElementById("area-render"), {
-        color: "255,0,255",
-        count: 50,
-      });
-    </script>
-
     <header class="navbar">
       <a class="navbar_index" href="./index.html">Home</a>
       <a class="navbar_blog" href="./blog.html">Blog</a>
@@ -85,17 +68,33 @@
           />
           <span class="portfolio_container_img_name">Project 3</span>
         </figure>
+        <button class="portfolio_leftArrow">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="portfolio_rightArrow">
+          <i class="fas fa-arrow-right"></i>
+        </button>
       </div>
-      <button class="portfolio_leftArrow">
-        <i class="fas fa-arrow-left"></i>
-      </button>
-      <button class="portfolio_rightArrow">
-        <i class="fas fa-arrow-right"></i>
-      </button>
     </main>
     <footer class="foot">
       <p>©2023 All rights reserved.</p>
     </footer>
     <script src="../js/slider.js"></script>
+    <script
+      type="text/javascript"
+      color="0,0,0"
+      pointColor="0,0,0"
+      opacity="99"
+      zIndex="-2"
+      count="150"
+      src="../js/dist/canvas-nest.js"
+    ></script>
+    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
+    <script type="text/javascript">
+      var cn = new CanvasNest(document.getElementById("area-render"), {
+        color: "255,0,255",
+        count: 50,
+      });
+    </script>
   </body>
 </html>

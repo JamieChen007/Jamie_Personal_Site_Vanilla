@@ -15,23 +15,6 @@
   </head>
 
   <body>
-    <script
-      type="text/javascript"
-      color="0,0,0"
-      pointColor="0,0,0"
-      opacity="99"
-      zIndex="-2"
-      count="150"
-      src="../js/dist/canvas-nest.js"
-    ></script>
-    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
-    <script type="text/javascript">
-      var cn = new CanvasNest(document.getElementById("area-render"), {
-        color: "255,0,255",
-        count: 50,
-      });
-    </script>
-
     <header class="navbar">
       <a class="navbar_index" href="./index.html">Home</a>
       <a class="navbar_blog" href="./blog.html">Blog</a>
@@ -49,6 +32,7 @@
       </figure>
       <div class="index_introduce">
         <p class="index_introduce_summary">HI, I'M Jamie Chen.</p>
+        <p class="index_introduce_detail0" id="index_introduce_detail0"></p>
         <p class="index_introduce_detail1">Welcome to my website!</p>
         <p class="index_introduce_detail2">
           As an experienced Web Developer, I create and develop beautiful things
@@ -74,5 +58,22 @@
     <footer class="foot">
       <p>Designed and Built by Jamie Chen.</p>
     </footer>
+    <script src="/js/index_write.js"></script>
+    <script
+      type="text/javascript"
+      color="0,0,0"
+      pointColor="0,0,0"
+      opacity="99"
+      zIndex="-2"
+      count="150"
+      src="../js/dist/canvas-nest.js"
+    ></script>
+    <script type="text/javascript" src="../js/dist/canvas-nest.umd.js"></script>
+    <script type="text/javascript">
+      var cn = new CanvasNest(document.getElementById("area-render"), {
+        color: "255,0,255",
+        count: 50,
+      });
+    </script>
   </body>
 </html>
