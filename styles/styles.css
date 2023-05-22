@@ -293,6 +293,12 @@ a:active {
   line-height: 2rem;
 }
 
+.index_introduce_detail0,
+.contact_title_subtitle {
+  color: black;
+  font-weight: 900;
+}
+
 .index_socialmedia,
 .contact_socialmedia {
   width: 50%;
