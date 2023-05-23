@@ -75,4 +75,9 @@ setTimeout(function () {
     ".blog_article_content_p2::after { display:none }",
     document.styleSheets[0].cssRules.length
   );
+
+  document.styleSheets[0].insertRule(
+    ".blog_article_button_submit { opacity: 1 }",
+    document.styleSheets[0].cssRules.length
+  );
 }, 3000);

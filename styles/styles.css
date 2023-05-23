@@ -86,14 +86,13 @@ a:active {
 }
 
 .blog_img {
-  height: 50vh;
-  width: 35%;
-  margin: 100px 0;
+  height: 60vh;
+  width: 50%;
+  margin: 60px 0;
   position: relative;
   overflow: hidden;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  /* filter: brightness(300%); */
   border-radius: 15px;
 }
 
@@ -215,11 +214,15 @@ a:active {
   cursor: pointer;
 }
 
+.blog_article_button_submit {
+  opacity: 0;
+}
+
 .blog_article_button_submit:hover,
 .contact_button_contactme:hover,
 .portfolio_leftArrow:hover,
 .portfolio_rightArrow:hover {
-  color: #bbb;
+  color: darkgray;
 }
 
 .blog_article_button_submit:active,
@@ -377,8 +380,14 @@ a:active {
   width: 80%;
 }
 
+.portfolio_container {
+  position: relative;
+}
+
 .portfolio_container_img_active {
   position: relative;
+  width: 100%;
+  margin: 0;
 }
 
 .portfolio_container_img {
@@ -406,8 +415,8 @@ a:active {
   position: absolute;
   width: 80px;
   height: 80px;
-  top: 60%;
-  left: 330px;
+  top: 45%;
+  left: 0;
   border: none;
   box-shadow: 1px 1px 2px;
   background-color: transparent;
@@ -420,10 +429,10 @@ a:active {
   position: absolute;
   width: 80px;
   height: 80px;
-  top: 60%;
-  right: 330px;
+  top: 45%;
+  right: 0;
   border: none;
-  box-shadow: 1px 1px 2px;
+  box-shadow: 0px 2px 1px;
   background-color: transparent;
   font-size: xx-large;
   color: black;
@@ -475,13 +484,13 @@ a:active {
     width: 100%;
   }
 
-  .portfolio_leftArrow {
+  /* .portfolio_leftArrow {
     left: 200px;
   }
 
   .portfolio_rightArrow {
     right: 200px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1000px) {
@@ -561,15 +570,11 @@ a:active {
   }
 
   .portfolio_leftArrow {
-    top: 65%;
-    left: 150px;
     width: 60px;
     height: 60px;
   }
 
   .portfolio_rightArrow {
-    top: 65%;
-    right: 150px;
     width: 60px;
     height: 60px;
   }
@@ -646,15 +651,11 @@ a:active {
   }
 
   .portfolio_leftArrow {
-    top: 65%;
-    left: 0;
     width: 40px;
     height: 40px;
   }
 
   .portfolio_rightArrow {
-    top: 65%;
-    right: 0;
     width: 40px;
     height: 40px;
   }
