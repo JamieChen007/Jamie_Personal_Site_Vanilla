@@ -312,18 +312,20 @@ a:active {
 .index_socialmedia_github,
 .contact_socialmedia_github {
   display: inline-block;
-  background-image: url("../images/github.png");
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: black;
 }
 
 .index_socialmedia_linkedin,
 .contact_socialmedia_linkedin {
   display: inline-block;
-  background-image: url("../images/linkedin32.png");
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
   margin-left: 2rem;
+  color: #0072b1;
 }
 
 .skill_container {
@@ -418,7 +420,7 @@ a:active {
   top: 45%;
   left: 0;
   border: none;
-  box-shadow: 1px 1px 2px;
+  /* box-shadow: 1px 1px 2px; */
   background-color: transparent;
   font-size: xx-large;
   color: black;
@@ -432,7 +434,7 @@ a:active {
   top: 45%;
   right: 0;
   border: none;
-  box-shadow: 0px 2px 1px;
+  /* box-shadow: 0px 2px 1px; */
   background-color: transparent;
   font-size: xx-large;
   color: black;
@@ -493,7 +495,7 @@ a:active {
   } */
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .navbar {
     justify-content: center;
     width: 20vw;
@@ -510,7 +512,7 @@ a:active {
   }
 
   .blog_title {
-    height: 4vh;
+    height: 8vh;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
