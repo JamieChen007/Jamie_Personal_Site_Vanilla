@@ -1,12 +1,10 @@
 const text = document.getElementById("contact_title_subtitle");
 
-let textValue = "I am Jamie Chen!";
+const textValue = "I am Jamie Chen!";
 
 let index = 1;
 
-write();
-
-function write() {
+const write = () => {
   text.innerHTML = textValue.slice(0, index);
 
   index++;
@@ -16,4 +14,6 @@ function write() {
   }
 
   setTimeout(write, 250);
-}
+};
+
+write();
