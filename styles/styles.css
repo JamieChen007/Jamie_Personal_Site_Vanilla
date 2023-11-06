@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=M+PLUS+Rounded+1c:wght@400;700;900&family=Ubuntu+Condensed&display=swap");
 
 :root {
   --font-color: gray;
-  --font-family: "Bruno Ace", cursive;
+  --font-family: "Comfortaa", cursive;
 }
 
 body {
